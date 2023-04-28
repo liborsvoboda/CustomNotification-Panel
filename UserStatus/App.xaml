@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="SensioUserStatus.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    StartupUri="MainNotifyWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="SlickButtonRD.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="MainGridStyleRD.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="StealthButtonRD.xaml"></ResourceDictionary> 
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
